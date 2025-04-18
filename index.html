@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <nav class="container navegacao">
+
+            <div class="logo ativo">
+                Esn Fotos
+            </div>
+
+            <button class="botao-menu">≡</button>
+
+            <ul class="menu ativo">
+                <li>
+                    <a href="#destaque">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#recursos">Recursos</a>
+                </li>
+
+                <li>
+                    <a href="#Sobre">Sobre fazer</a>
+                </li>
+
+                <li>
+                    <a href="#Sobre">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#Sobre">Fale com nosco</a>
+                </li>
+
+                <li>
+                    <a href="#Sobre">Contrate agora</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="destaque" id="destaque">
+
+        <div class="container">
+            <div class="texto">
+                <h1> Restauração de fotos Antigas</h1>
+                <p>Restaurações feitas com repomsabilidades e tecnologia grafica</p>
+                <a href="#" class="botao" href="">Exprorar</a>
+
+            </div>
+
+            <div class="imagem">
+                <img src="img/logo.png" alt="logo esn">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="recursos" id="recursos">
+        <h2>Nossos diferenciais</h2>
+
+        <div class="container">
+
+            <div class="card">
+
+                <div class="icone">📷</div>
+                <h3>Fotografias antigas</h3>
+                <p>As restaurações são feitas apartir de fotos antigas que ao passar do tempo se estragou ficando
+                    amareladas
+                    ou sem vida</p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="icone">📓 </div>
+                <h3>Album de casamentos</h3>
+                <p>As restaurações são feitas apartir de fotos antigas que ao passar do tempo se estragou ficando
+                    amareladas
+                    ou sem vida</p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="icone">💡 </div>
+                <h3>Antes e depois</h3>
+                <p>As restaurações são feitas apartir de fotos antigas que ao passar do tempo se estragou ficando
+                    amareladas
+                    ou sem vida</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="cta">
+        <h2> Restaure suas Fotografia antiga</h2>
+        <p>venha conferir nos resultados com restauração de fotos vc vai gostar</p>
+
+        <a href="#" class="botao">faça agora</a>
+
+    </section>
+
+    <footer>
+        direitos resevados esn Fotos - 2025
+    </footer>
+
+</body>
+<script>
+
+    let botao = document.querySelector('.botao-menu')
+    let menu = document.querySelector('.menu')
+
+    botao.addEventListener('click', () => {
+        menu.classList.toggle('ativo')
+    })
+
+
+
+</script>
+
+</html>
